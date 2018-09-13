@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML5-CSR</title>
+</head>
+<body>
+    <canvas width="600" height="400" id="canvas"></canvas> 
+		<script>
+            var canvas = document.getElementById('canvas'); 
+		    var c = canvas.getContext('2d');     
+            c.arc(70,200,50,0,2*Math.PI,true);
+            c.fillStyle='#53BDBD';
+            c.fill();
+            c.stroke();
+            c.beginPath();
+            c.rect(20,20,100,100);
+            c.fillStyle='#ff0000';
+            c.fill();
+            c.stroke();
+            c.beginPath();
+            c.rect(160,20,200,100);
+            c.fillStyle='#53BD53';
+            c.fill();
+            c.stroke();
+        </script> 
+</body>
+</html>
